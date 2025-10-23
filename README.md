@@ -24,7 +24,7 @@ If your module is published in a public Git repository, you can reference it fro
 
 ```hcl
 module "tag_lambda" {
-  source              = "git::https://github.com/<your-org>/terraform-lambda-tag.git//modules/tag-lambda?ref=<version-or-branch>"
+  source              = "git::https://github.com/GustavoGuima86/terraform-lambda-tag.git//modules/tag-lambda?ref=main"
   tags                = {
     "Environment" = "Production"
     "Owner"       = "DevOps"
